@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/gad0788/gitops-manifest-awstf.git
+    repoURL: https://github.com/kayitesimarieange3h-del/meteo-project.git
     targetRevision: main
     path: 3tire-configs
   destination:

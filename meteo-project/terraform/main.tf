@@ -136,12 +136,12 @@ resource "kubectl_manifest" "argocd" {
 # }
 
 # --- Application Namespace ---
-resource "kubernetes_namespace_v1" "app" {
-  metadata {
-    name = "3tirewebapp-dev"
-  }
-  depends_on = [module.eks]
-}
+# resource "kubernetes_namespace_v1" "app" {
+#   metadata {
+#     name = "3tirewebapp-dev"
+#   }
+#   depends_on = [module.eks]
+# }
 
 # --- Deploy application via ArgoCD Application CRD ---
 resource "kubectl_manifest" "app_deployment" {

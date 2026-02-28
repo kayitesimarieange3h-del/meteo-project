@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/kayitesimarieange3h-del/meteo-project.git
+    repoURL: origin  https://github.com/kayitesimarieange3h-del/meteo-app.git
     targetRevision: main
     path: 3tire-configs
   destination:
